@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "reason_description",
+      "value": "this app needs access your location"
+    },
+    {
+      "name": "app_name",
+      "value": "Golf GPS Range Finder"
+    },
+    {
+      "name": "start_button",
+      "value": "Start"
+    },
+    {
+      "name": "club_list_title",
+      "value": "Nearby Golf Clubs"
+    },
+    {
+      "name": "loading_text",
+      "value": "Loading nearby clubs..."
+    },
+    {
+      "name": "club_detail_title",
+      "value": "Club Info"
+    },
+    {
+      "name": "label_name",
+      "value": "Name"
+    },
+    {
+      "name": "label_rating",
+      "value": "Rating"
+    },
+    {
+      "name": "label_distance",
+      "value": "Distance"
+    },
+    {
+      "name": "label_address",
+      "value": "Address"
+    },
+    {
+      "name": "label_phone",
+      "value": "Phone"
+    },
+    {
+      "name": "label_id",
+      "value": "ID"
+    },
+    {
+      "name": "label_latitude",
+      "value": "Latitude"
+    },
+    {
+      "name": "label_longitude",
+      "value": "Longitude"
+    },
+    {
+      "name": "label_holes",
+      "value": "Holes"
+    },
+    {
+      "name": "label_par",
+      "value": "Par"
+    },
+    {
+      "name": "subtitle_text",
+      "value": "Smart distance tracking"
+    },
+    {
+      "name": "no_data",
+      "value": "No information available"
+    }
+  ]
+}

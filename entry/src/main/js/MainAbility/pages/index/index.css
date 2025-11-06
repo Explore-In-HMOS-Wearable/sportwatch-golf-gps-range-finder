@@ -1,0 +1,139 @@
+.page {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8vp;
+  padding-bottom: 12vp;
+}
+
+.bg-dark {
+  background-color: #112B3C;
+  shadow-color: #0b1f2e;
+  shadow-offset-x: 0vp;
+  shadow-offset-y: -8vp;
+  shadow-radius: 16vp;
+}
+
+.text-white { color: #ffffff; }
+.text-gray  { color: #cfd6e4; }
+.text-blue  { color: #2f6fed; }
+
+.bg-black { background-color: #000000; }
+.bg-blue  { background-color: #2f6fed; }
+
+.border { border: 2vp solid #3f4d66; }
+.round-pill { border-radius: 999vp; }
+
+.p-8 { padding: 8vp; }
+.mt-8 { margin-top: 8vp; }
+.mb-8 { margin-bottom: 8vp; }
+
+.title {
+  font-size: 22vp;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 28vp;
+  text-align: center;
+}
+
+.title-second {
+  margin-top: -4vp;
+  font-size: 22vp;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 32vp;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 16vp;
+  color: #cfd6e4;
+  font-weight: 600;
+  line-height: 24vp;
+  text-align: center;
+}
+
+.row-center {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-center {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mascot {
+  width: 120vp;
+  height: 120vp;
+  margin-top: 16vp;
+  margin-bottom: 16vp;
+  object-fit: contain;
+}
+
+.cta {
+  width: 76%;
+  height: 48vp;
+  margin-top: 8vp;
+  margin-bottom: 8vp;
+  border-radius: 999vp;
+  background-color: #2f6fed;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-text {
+  color: #ffffff;
+  font-size: 18vp;
+  font-weight: 600;
+}
+
+.btn {
+  width: 70%;
+  height: 44vp;
+  border-radius: 22vp;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b3c4d;
+}
+
+.btn-primary { background-color: #2f6fed; }
+.btn-danger  { background-color: #e5484d; }
+
+.list {
+  width: 90%;
+  height: 40%;
+}
+
+.list-item {
+  height: 44vp;
+  margin-top: 6vp;
+  margin-bottom: 6vp;
+  padding-left: 12vp;
+  padding-right: 12vp;
+  border-radius: 22vp;
+  background-color: #1b2437;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.info-row {
+  width: 90%;
+  height: 40vp;
+  padding-left: 12vp;
+  padding-right: 12vp;
+  border-radius: 20vp;
+  background-color: #19233a;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}

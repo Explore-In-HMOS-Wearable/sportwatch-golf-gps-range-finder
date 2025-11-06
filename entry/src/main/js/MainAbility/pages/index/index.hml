@@ -1,0 +1,13 @@
+<div class="page bg-dark">
+
+    <text class="title">Golf GPS</text>
+    <text class="title-second">Range Finder</text>
+
+    <image class="mascot" src="./mascot.png"></image>
+
+    <div class="cta" onclick="onStart">
+        <text class="cta-text">Start</text>
+    </div>
+
+    <text class="subtitle mt-8">Smart distance tracking</text>
+</div>

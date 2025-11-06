@@ -1,0 +1,146 @@
+.game-page {
+    width: 100%;
+    height: 100%;
+    background-color: #0e2534;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vp;
+    padding-right: 10vp;
+}
+
+.game-title {
+    font-size: 20vp;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: -28vp;
+    margin-bottom: 8vp;
+    text-align: center;
+}
+
+.stat-bar {
+    width: 90%;
+    height: 28vp;
+    border-radius: 14vp;
+    background-color: #173447;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12vp;
+    padding-right: 12vp;
+    margin-bottom: 8vp;
+}
+.stat-text {
+    color: #cfe2f0;
+    font-size: 14vp;
+}
+
+.game-card {
+    width: 92%;
+    border-radius: 18vp;
+    background-color: #1d4057;
+    padding-left: 12vp;
+    padding-right: 12vp;
+    padding-top: 10vp;
+    padding-bottom: 10vp;
+    margin-bottom: 10vp;
+}
+
+.row {
+    width: 100%;
+    height: 44vp;
+    border-radius: 14vp;
+    background-color: #224a63;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12vp;
+    padding-right: 12vp;
+    margin-bottom: 8vp;
+}
+
+.label {
+    color: #bcd0df;
+    font-size: 14vp;
+    font-weight: 600;
+}
+.value {
+    color: #ffffff;
+    font-size: 16vp;
+    font-weight: 700;
+    text-align: right;
+}
+
+.stroke-box {
+    width: 60%;
+    height: 32vp;
+    border-radius: 16vp;
+    background-color: #1b3a4f;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6vp;
+    padding-right: 6vp;
+}
+
+.btn-round {
+    width: 28vp;
+    height: 28vp;
+    border-radius: 28vp;
+    background-color: #2b3c4d;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16vp;
+}
+.stroke-value {
+    color: #ffffff;
+    font-size: 18vp;
+    font-weight: 700;
+}
+
+.nav-bar {
+    width: 92%;
+    height: 44vp;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8vp;
+}
+
+.btn-ghost {
+    width: 28%;
+    height: 44vp;
+    border-radius: 22vp;
+    background-color: #173447;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14vp;
+}
+
+.btn-primary {
+    width: 36%;
+    height: 44vp;
+    border-radius: 22vp;
+    background-color: #2f6fed;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14vp;
+}
+
+.footer-card {
+    width: 92%;
+    border-radius: 14vp;
+    background-color: #173447;
+    padding-left: 12vp;
+    padding-right: 12vp;
+    padding-top: 8vp;
+    padding-bottom: 8vp;
+}
+.footer-text {
+    color: #cfe2f0;
+    font-size: 14vp;
+    text-align: center;
+}

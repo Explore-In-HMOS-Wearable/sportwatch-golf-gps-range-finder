@@ -1,0 +1,15 @@
+<div class="container">
+
+    <text class="header-text" onclick="loadClubs">Nearby Golf Clubs</text>
+
+    <div class="accent-bar"></div>
+
+    <text id="loadingText" if="{{ isLoading }}" class="text-muted">
+        Loading nearby clubs...
+    </text>
+
+    <list-item class="list-item" type="listItem" for="{{ clubs }}">
+        <text>{{ clubs[$idx].name }}</text>
+    </list-item>
+
+</div>

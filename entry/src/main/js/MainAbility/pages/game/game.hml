@@ -1,0 +1,56 @@
+<div class="game-page">
+
+    <text class="game-title">Golf Game</text>
+
+    <div class="stat-bar">
+        <text class="stat-text">Hole: {{currentHole.number}} / {{holes.length}}</text>
+        <text class="stat-text">Avg: {{avgScore}}</text>
+    </div>
+
+    <div class="game-card">
+        <div class="row">
+            <text class="label">Par</text>
+            <text class="value">{{currentHole.par}}</text>
+        </div>
+
+        <div class="row">
+            <text class="label">Distance</text>
+            <text class="value">{{currentHole.distance}} m</text>
+        </div>
+
+        <div class="row">
+            <text class="label">Strokes</text>
+            <div class="stroke-box">
+                <div class="btn-round" onclick="decStroke">
+                    <text>-</text>
+                </div>
+
+                <text class="stroke-value">{{currentHole.strokes}}</text>
+
+                <div class="btn-round" onclick="incStroke">
+                    <text>+</text>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-bar">
+        <div class="btn-ghost" onclick="prevHole">
+            <text>Prev</text>
+        </div>
+
+        <div class="btn-primary" onclick="resetHole">
+            <text>Reset</text>
+        </div>
+
+        <div class="btn-ghost" onclick="nextHole">
+            <text>Next</text>
+        </div>
+    </div>
+
+    <div class="footer-card">
+        <text class="footer-text">Total Strokes: {{totalStrokes}}</text>
+        <text class="footer-text">Score vs Par: {{scoreVsPar}}</text>
+    </div>
+
+</div>

@@ -1,0 +1,212 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #112B3C;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Typography */
+.header-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 32px;
+    text-align: center;
+    letter-spacing: 1vp;
+    line-height: 52vp;
+    text-shadow: 0vp 2vp 4vp #0a0a0a;
+}
+
+/* Loading state */
+#loadingText {
+    font-size: 18px;
+    color: #AAAAAA;
+    text-align: center;
+    margin-top: 8vp;
+    margin-bottom: 12vp;
+}
+
+/* List container */
+.club-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Club list item */
+.list-item {
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 90%;
+    border-radius: 64px;
+    margin-bottom: 12px;
+    background-color: #2b3c4d;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.5vp;
+    shadow-color: #0a0a0a;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: 2vp;
+    shadow-radius: 6vp;
+}
+
+/* --- extra visual polish --- */
+.list-item-alt {
+    background-color: #31465b;
+}
+
+.list-item-accent {
+    background-color: #34506b;
+    color: #dceeff;
+}
+
+.list-item:hover {
+    background-color: #3b4f63;
+}
+
+/* text variants */
+.text-white { color: #ffffff; }
+.text-muted { color: #aab2c0; }
+.text-green { color: #19c37d; }
+.text-blue  { color: #2f6fed; }
+.text-red   { color: #e5484d; }
+
+/* background utilities */
+.bg-dark     { background-color: #0b1220; }
+.bg-soft     { background-color: #1b2437; }
+.bg-accent   { background-color: #2f6fed; }
+.bg-accent2  { background-color: #143b2f; }
+.bg-warning  { background-color: #3b2a14; }
+.bg-danger   { background-color: #3b1a1c; }
+
+/* rounded helpers */
+.round-sm  { border-radius: 12vp; }
+.round-md  { border-radius: 24vp; }
+.round-lg  { border-radius: 36vp; }
+.round-xl  { border-radius: 999vp; }
+
+/* padding helpers */
+.p-0  { padding: 0vp; }
+.p-4  { padding: 4vp; }
+.p-8  { padding: 8vp; }
+.p-12 { padding: 12vp; }
+.p-16 { padding: 16vp; }
+
+/* margin helpers */
+.mt-4  { margin-top: 4vp; }
+.mt-8  { margin-top: 8vp; }
+.mt-12 { margin-top: 12vp; }
+.mb-4  { margin-bottom: 4vp; }
+.mb-8  { margin-bottom: 8vp; }
+.mb-12 { margin-bottom: 12vp; }
+
+/* alignment utilities */
+.text-center { text-align: center; }
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
+
+.flex-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* subtle gradient simulation via shadow */
+.gradient-blue {
+    background-color: #2b3c4d;
+    shadow-color: #223040;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: -4vp;
+    shadow-radius: 10vp;
+}
+
+/* divider styling */
+.divider {
+    width: 80%;
+    height: 2vp;
+    border-radius: 1vp;
+    background-color: #334a5c;
+    margin-top: 8vp;
+    margin-bottom: 8vp;
+}
+
+/* card effect */
+.card {
+    width: 90%;
+    padding: 12vp;
+    border-radius: 22vp;
+    background-color: #19233a;
+    color: #ffffff;
+    shadow-color: #0b1220;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: 3vp;
+    shadow-radius: 6vp;
+}
+
+/* accent bar under title */
+.accent-bar {
+    width: 40%;
+    height: 4vp;
+    border-radius: 2vp;
+    background-color: #2f6fed;
+    margin-bottom: 10vp;
+}
+
+/* mini badge */
+.badge {
+    padding-left: 8vp;
+    padding-right: 8vp;
+    height: 24vp;
+    border-radius: 999vp;
+    background-color: #1b2437;
+    color: #aab2c0;
+    font-size: 12vp;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button-like header text press effect */
+.header-text:active {
+    color: #cfd6e4;
+    shadow-color: #0b0b0b;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: 2vp;
+    shadow-radius: 3vp;
+}
+
+/* shadows utilities */
+.shadow-sm {
+    shadow-color: #0b1220;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: 2vp;
+    shadow-radius: 3vp;
+}
+.shadow-md {
+    shadow-color: #0b1220;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: 4vp;
+    shadow-radius: 6vp;
+}
+.shadow-lg {
+    shadow-color: #0b1220;
+    shadow-offset-x: 0vp;
+    shadow-offset-y: 6vp;
+    shadow-radius: 10vp;
+}
