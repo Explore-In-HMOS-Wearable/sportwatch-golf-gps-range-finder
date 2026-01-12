@@ -1,3 +1,5 @@
+import router from '@ohos.router';
+
 export default {
     data: {
         current: 0,
@@ -14,7 +16,6 @@ export default {
             rating: 4.2
         }
     },
-
     onInit() {
         try {
             const router = require('@system.router');

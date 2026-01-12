@@ -9,7 +9,7 @@
     </text>
 
     <list-item class="list-item" type="listItem" for="{{ clubs }}">
-        <text>{{ clubs[$idx].name }}</text>
+        <text onclick="goClubDetails" >{{ clubs[$idx].name }}</text>
     </list-item>
 
 </div>

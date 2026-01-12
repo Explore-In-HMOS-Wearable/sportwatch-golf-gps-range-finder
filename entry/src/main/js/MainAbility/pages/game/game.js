@@ -11,15 +11,60 @@ export default {
 
     onInit() {
         this.holes = [
-            { number: 1, par: 4, distance: 380, strokes: 0 },
-            { number: 2, par: 3, distance: 160, strokes: 0 },
-            { number: 3, par: 5, distance: 480, strokes: 0 },
-            { number: 4, par: 4, distance: 410, strokes: 0 },
-            { number: 5, par: 4, distance: 360, strokes: 0 },
-            { number: 6, par: 3, distance: 175, strokes: 0 },
-            { number: 7, par: 5, distance: 505, strokes: 0 },
-            { number: 8, par: 4, distance: 395, strokes: 0 },
-            { number: 9, par: 3, distance: 150, strokes: 0 }
+            {
+                number: 1,
+                par: 4,
+                distance: 380,
+                strokes: 0
+            },
+            {
+                number: 2,
+                par: 3,
+                distance: 160,
+                strokes: 0
+            },
+            {
+                number: 3,
+                par: 5,
+                distance: 480,
+                strokes: 0
+            },
+            {
+                number: 4,
+                par: 4,
+                distance: 410,
+                strokes: 0
+            },
+            {
+                number: 5,
+                par: 4,
+                distance: 360,
+                strokes: 0
+            },
+            {
+                number: 6,
+                par: 3,
+                distance: 175,
+                strokes: 0
+            },
+            {
+                number: 7,
+                par: 5,
+                distance: 505,
+                strokes: 0
+            },
+            {
+                number: 8,
+                par: 4,
+                distance: 395,
+                strokes: 0
+            },
+            {
+                number: 9,
+                par: 3,
+                distance: 150,
+                strokes: 0
+            }
         ];
         this.updateComputed();
     },
@@ -32,7 +77,10 @@ export default {
             const h = this.holes[i];
             totalStrokes += h.strokes || 0;
             totalPar += h.par || 0;
-            if (h.strokes > 0) { played++; diffSum += (h.strokes - h.par); }
+            if (h.strokes > 0) {
+                played++;
+                diffSum += (h.strokes - h.par);
+            }
         }
 
         this.totalStrokes = totalStrokes;
@@ -41,8 +89,9 @@ export default {
         const diff = totalStrokes - totalPar;
         this.scoreVsPar = totalStrokes === 0 ? '—' : (diff > 0 ? `+${diff}` : `${diff}`);
 
-        if (played === 0) this.avgScore = '—';
-        else {
+        if (played === 0) {
+            this.avgScore = '—'
+        } else {
             const avg = Math.round((diffSum / played) * 10) / 10;
             this.avgScore = avg > 0 ? `+${avg}` : `${avg}`;
         }

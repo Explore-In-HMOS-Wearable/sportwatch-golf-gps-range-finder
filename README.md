@@ -1,8 +1,8 @@
-> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
+> **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit 
 
-# Golf Gps Finder Lite
+# sportwatch-golf-gps-range-finder
 
-GolfGPSFinderLite is a HarmonyOS Lite wearable app that helps golfers locate nearby clubs, view course details, and start a round with distance and hole tracking.
+sportwatch-golf-gps-range-finder is a HarmonyOS Lite wearable app that helps golfers locate nearby clubs, view course details, and start a round with distance and hole tracking.
 
 # Preview
 
@@ -81,5 +81,5 @@ entry/
 
 # LICENSE
 
-Golf Gps Finder Lite is distributed under the terms of the MIT License.
+sportwatch-golf-gps-range-finder is distributed under the terms of the MIT License.
 See the [LICENSE](/LICENSE) for more information.

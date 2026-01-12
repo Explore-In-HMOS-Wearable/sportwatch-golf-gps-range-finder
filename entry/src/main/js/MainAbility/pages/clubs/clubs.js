@@ -1,16 +1,20 @@
 import geolocation from '@ohos.geolocation';
+import router from '@ohos.router';
 
 export default {
     data: {
         lat: '',
         long: '',
         clubs: [],
-        isLoading: true,
+        isLoading: true
     },
 
     onInit() {
         this.loadClubs();
         geolocation.on('locationChange', this.requestInfo, this.locationChange);
+    },
+    goClubDetails() {
+        router.replace({ uri: 'pages/clubDetail/clubDetail' });
     },
     onDestroy() {
         geolocation.off('locationChange', this.locationChange);
@@ -23,7 +27,7 @@ export default {
         'priority': 0x201,
         'timeInterval': 0,
         'distanceInterval': 0,
-        'maxAccuracy': 0,
+        'maxAccuracy': 0
     },
 
     loadClubs() {
@@ -77,8 +81,6 @@ export default {
             this.clubs = mockClubs;
             this.isLoading = false;
             this.$forceUpdate();
-            console.log(JSON.stringify(this.clubs, 2));
-
         }, 1500);
     }
 };

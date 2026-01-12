@@ -5,7 +5,7 @@
 
     <image class="mascot" src="./mascot.png"></image>
 
-    <div class="cta" onclick="onStart">
+    <div class="cta" onclick="nextPage">
         <text class="cta-text">Start</text>
     </div>
 

@@ -1,20 +1,21 @@
 <div class="page bg-dark">
     <text class="detail-title">Club Info</text>
 
-    <swiper class="swiper" index="{{current}}" onchange="onSwipe" indicator="false" loop="false">
+    <swiper class="swiper" index="{{ current }}" onchange="onSwipe" indicator="false" loop="false">
+
     <!-- Slide 0 -->
         <div class="slide">
             <div class="info-card">
                 <text class="label">Name</text>
-                <text class="value">{{club.name}}</text>
+                <text class="value">{{ club.name }}</text>
             </div>
             <div class="info-card">
                 <text class="label">Rating</text>
-                <text class="value">{{club.rating}} / 5</text>
+                <text class="value">{{ club.rating }} / 5</text>
             </div>
             <div class="info-card">
                 <text class="label">Distance</text>
-                <text class="value">{{club.distance}} km</text>
+                <text class="value">{{ club.distance }} km</text>
             </div>
         </div>
 
@@ -22,15 +23,15 @@
         <div class="slide">
             <div class="info-card">
                 <text class="label">Address</text>
-                <text class="value">{{club.address}}</text>
+                <text class="value">{{ club.address }}</text>
             </div>
             <div class="info-card">
                 <text class="label">Phone</text>
-                <text class="value">{{club.phone}}</text>
+                <text class="value">{{ club.phone }}</text>
             </div>
             <div class="info-card">
                 <text class="label">ID</text>
-                <text class="value">{{club.id}}</text>
+                <text class="value">{{ club.id }}</text>
             </div>
         </div>
 
@@ -38,15 +39,15 @@
         <div class="slide">
             <div class="info-card">
                 <text class="label">Latitude</text>
-                <text class="value">{{club.lat}}</text>
+                <text class="value">{{ club.lat }}</text>
             </div>
             <div class="info-card">
                 <text class="label">Longitude</text>
-                <text class="value">{{club.lon}}</text>
+                <text class="value">{{ club.lon }}</text>
             </div>
             <div class="info-card">
                 <text class="label">Holes</text>
-                <text class="value">{{club.holes}}</text>
+                <text class="value">{{ club.holes }}</text>
             </div>
         </div>
 
@@ -54,7 +55,7 @@
         <div class="slide">
             <div class="info-card">
                 <text class="label">Par</text>
-                <text class="value">{{club.par}}</text>
+                <text class="value">{{ club.par }}</text>
             </div>
             <div class="info-card">
                 <text class="label"></text>
@@ -68,9 +69,13 @@
     </swiper>
 
     <div class="dots">
-        <div class="dot-active" if="{{current == 0}}"></div><div class="dot" if="{{current != 0}}"></div>
-        <div class="dot-active" if="{{current == 1}}"></div><div class="dot" if="{{current != 1}}"></div>
-        <div class="dot-active" if="{{current == 2}}"></div><div class="dot" if="{{current != 2}}"></div>
-        <div class="dot-active" if="{{current == 3}}"></div><div class="dot" if="{{current != 3}}"></div>
+        <div class="dot-active" if="{{ current == 0 }}"></div>
+        <div class="dot" if="{{ current != 0 }}"></div>
+        <div class="dot-active" if="{{ current == 1 }}"></div>
+        <div class="dot" if="{{ current != 1 }}"></div>
+        <div class="dot-active" if="{{ current == 2 }}"></div>
+        <div class="dot" if="{{ current != 2 }}"></div>
+        <div class="dot-active" if="{{ current == 3 }}"></div>
+        <div class="dot" if="{{ current != 3 }}"></div>
     </div>
 </div>
